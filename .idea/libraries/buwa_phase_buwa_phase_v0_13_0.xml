@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="buwa-phase.buwa-phase-v0.13.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/buwa-phase/build/libs/buwa-phase-v0.13.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

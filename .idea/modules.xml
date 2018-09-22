@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TurtleTailTaker.iml" filepath="$PROJECT_DIR$/.idea/modules/TurtleTailTaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buwa-phase/buwa-phase.iml" filepath="$PROJECT_DIR$/.idea/modules/buwa-phase/buwa-phase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/taker/taker.iml" filepath="$PROJECT_DIR$/.idea/modules/taker/taker.iml" />
+    </modules>
+  </component>
+</project>

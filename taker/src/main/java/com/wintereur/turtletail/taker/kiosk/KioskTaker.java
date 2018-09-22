@@ -1,0 +1,75 @@
+package com.wintereur.turtletail.taker.kiosk;
+
+/*
+ * Created by Christian Schabesberger on 12.08.17.
+ *
+ * Copyright (C) Christian Schabesberger 2017 <chris.schabesberger@mailbox.com>
+ * KioskTaker.java is part of TurtleTail.
+ *
+ * TurtleTail is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * TurtleTail is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with TurtleTail.  If not, see <http://www.gnu.com/licenses/>.
+ */
+
+import com.wintereur.turtletail.taker.ListTaker;
+import com.wintereur.turtletail.taker.StreamingService;
+import com.wintereur.turtletail.taker.exceptions.ParsingException;
+import com.wintereur.turtletail.taker.stream.StreamInfoItem;
+import com.wintereur.turtletail.taker.linkhandler.ListLinkHandler;
+
+import javax.annotation.Nonnull;
+
+public abstract class KioskTaker extends ListTaker<StreamInfoItem> {
+    private String contentCountry = null;
+    private final String id;
+
+    public KioskTaker(StreamingService streamingService,
+                          ListLinkHandler urlIdHandler,
+                          String kioskId) {
+        super(streamingService, urlIdHandler);
+        this.id = kioskId;
+    }
+
+    /**
+     * For certain Websites the content of a kiosk will be different depending
+     * on the country you want to poen the website in. Therefore you should
+     * set the contentCountry.
+     * @param contentCountry Set the country decoded as Country Code: http://www.1728.com/countries.htm
+     */
+    public void setContentCountry(String contentCountry) {
+        this.contentCountry = contentCountry;
+    }
+
+
+    @Nonnull
+    @Override
+    public String getId() {
+        return id;
+    }
+
+    /**
+     * Id should be the name of the kiosk, tho Id is used for identifing it in the frontend,
+     * so id should be kept in english.
+     * In order to get the name of the kiosk in the desired language we have to
+     * crawl if from the website.
+     * @return the tranlsated version of id
+     * @throws ParsingException
+     */
+    @Nonnull
+    @Override
+    public abstract String getName() throws ParsingException;
+
+
+    public String getContentCountry() {
+        return contentCountry;
+    }
+}
