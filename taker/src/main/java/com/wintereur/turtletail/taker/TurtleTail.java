@@ -21,6 +21,7 @@ package com.wintereur.turtletail.taker;
  */
 
 import com.wintereur.turtletail.taker.exceptions.ExtractionException;
+import com.wintereur.turtletail.taker.services.youtube.YoutubeService;
 
 import java.util.List;
 
@@ -45,7 +46,7 @@ public class TurtleTail {
     // Utils
     //////////////////////////////////////////////////////////////////////////*/
 
-    public static List<StreamingService> getServices() {
+    public static List<YoutubeService> getServices() {
         return ServiceList.all();
     }
 

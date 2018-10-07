@@ -1,6 +1,6 @@
 package com.wintereur.turtletail.taker;
 
-import com.wintereur.turtletail.taker.services.soundcloud.SoundcloudService;
+
 import com.wintereur.turtletail.taker.services.youtube.YoutubeService;
 
 import java.util.List;
@@ -17,12 +17,11 @@ public final class ServiceList {
     }
 
     public static final YoutubeService YouTube;
-    public static final SoundcloudService SoundCloud;
 
-    private static final List<StreamingService> SERVICES = unmodifiableList(
+
+    private static final List<YoutubeService> SERVICES = unmodifiableList(
             asList(
-                    YouTube = new YoutubeService(0),
-                    SoundCloud = new SoundcloudService(1)
+                    YouTube = new YoutubeService(0)
             ));
 
     /**
@@ -30,7 +29,7 @@ public final class ServiceList {
      *
      * @return a unmodifiable list of all the supported services
      */
-    public static List<StreamingService> all() {
+    public static List<YoutubeService> all() {
         return SERVICES;
     }
 }

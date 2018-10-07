@@ -40,7 +40,7 @@ public class TurtleTailTest {
         assertEquals(getServiceByUrl("https://www.youtube.com/channel/UCi2bIyFtz-JdI-ou8kaqsqg"), YouTube);
         assertEquals(getServiceByUrl("https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH"), YouTube);
 
-        assertNotEquals(getServiceByUrl("https://soundcloud.com/pegboardnerds"), YouTube);
+
     }
 
     @Test
