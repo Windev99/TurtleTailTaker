@@ -2,45 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e87c46-0119-4c5a-a502-5ce8fe01b37f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/ServiceList.java" afterPath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/ServiceList.java" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/TurtleTail.java" afterPath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/TurtleTail.java" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudChannelInfoItemTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudChannelLinkHandlerFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudChannelTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudChartsLinkHandlerFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudChartsTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudParsingHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudPlaylistInfoItemTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudPlaylistLinkHandlerFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudPlaylistTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudSearchQueryHandlerFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudSearchTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudStreamInfoItemTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudStreamLinkHandlerFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudStreamTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudSubscriptionTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/main/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudSuggestionTaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/TurtleTailTest.java" afterPath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/TurtleTailTest.java" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudChannelTakerTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudChartsLinkHandlerFactoryTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudChartsTakerTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudParsingHelperTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudPlaylistTakerTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudStreamLinkHandlerFactoryTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudStreamTakerDefaultTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudSubscriptionTakerTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/SoundcloudSuggestionTakerTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/search/SoundcloudSearchQHTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/search/SoundcloudSearchTakerBaseTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/search/SoundcloudSearchTakerChannelOnlyTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/taker/src/test/java/com/wintereur/turtletail/taker/services/soundcloud/search/SoundcloudSearchTakerDefaultTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_spotbugs_spotbugs_annotations_3_1_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_grack_nanojson_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_9_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mozilla_rhino_1_7_7_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_nibor_autolink_autolink_0_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/TurtleTailTaker_TurtleTailTaker_v0_13_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/autolink_0_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/buwa_phase_buwa_phase_v0_13_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/buwa_phase_buwa_phase_v0_13_0_sources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_9_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_3_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/nanojson_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/rhino_1_7_7_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spotbugs_annotations_3_1_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/taker_taker_v0_13_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/taker_taker_v0_13_0_sources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TurtleTailTaker.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/buwa-phase/buwa-phase.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/taker/taker.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/buwa-phase/out/" />
@@ -749,7 +741,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="76" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
@@ -1066,7 +1058,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1130,7 +1122,7 @@
         <state relative-caret-position="527">
           <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>

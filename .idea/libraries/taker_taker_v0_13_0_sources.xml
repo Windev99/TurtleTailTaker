@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="taker.taker-v0.13.0-sources">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/taker/build/libs/taker-v0.13.0-sources.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
